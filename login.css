@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    
+    
+
+}
+
+
+li{
+    list-style: none;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   background:  linear-gradient(45deg, rgba(1,248,239,1) 0%, rgba(157,72,149,1) 50%, rgba(135,167,214,1) 100% );
+}
+
+.box{
+width: 400px;
+height: 400px;
+background-color: #ffffffce;
+border-radius: 20px;
+text-align: center;
+position: absolute;
+top: 100px;
+right:480px;
+
+
+}
+.input-box1{
+    background-color: #22222200;
+   outline: none;
+   border: none;
+   border-bottom:1px solid #fff;
+   margin-top:50px ;
+   font-size: 20px;
+   
+
+}
+
+.input-box2{
+    background-color: #21212100;
+    outline: none;
+    border: none;
+    border-bottom:1px solid #fff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.button{
+    background-color: rgb(44, 196, 216);
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15pxpx;
+    font-family: 'Montserrat', sans-serif;
+    color: azure;
+    margin-top: 40px;
+
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(171, 53, 226);
+}
+
+.sign-up{
+    
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 32px;
+	color: rgb(0, 0, 0);
+   margin-top: 10px;
+    font-family: 'Arial', cursive;
+    margin-top: 20px;
+}
